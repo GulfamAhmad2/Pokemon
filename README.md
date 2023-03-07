@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Pokemon card genertor
+- it is a full responsive pokemon card
+- In this app i have used useState and useEffect hooks with fetch api
+
+![cover](https://user-images.githubusercontent.com/112485199/223488290-500798bd-73c5-492a-9c1a-df30b60ca6d1.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
