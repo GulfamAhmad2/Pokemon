@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #eff3ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  width: 330px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+
+.card{
+  /* background: radial-gradient(circle at 50% 0%, orange 36%, #ffffff 36%); */
+  width: 100%;
+  padding: 30px 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hp{
+ margin-left: auto;
+  column-gap: 5px;
+  padding: 5px 10px;
+  background-color: #eff3ff;
+  border-radius: 24px;
+}
+
+.hp-span{
+  font-size: 12px;
+}
+.hp-number{
+  font-size: 16px;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+
+.card-body img{
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+.pokemon-name{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.pokemon-about{
+  /* display: flex;
+  justify-content: space-between;
+  width: 100%; */
+  margin-top: 15px;
+}
+.about-1, .about-2{
+  padding: 2px 8px;
+  background-color: orange;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.pokemon-abilitys{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top:40px;
+}
+.ability{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ability-number{
+  font-weight: 600;
+  font-size: 16px;
+}
+.ability-text{
+  font-weight: 400;
+  font-size: 15px;
+}
+
+button{
+  padding: 8px 30px;
+  border-radius: 8px;
+  border: none;
+  background-color: black;
   color: white;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+button:active{
+  transform: scale(0.94);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
